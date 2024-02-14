@@ -3,3 +3,7 @@
 
 #include "PGamePlayLevelUI.h"
 
+UPGamePlayLevelUI::UPGamePlayLevelUI(const FObjectInitializer& ObjectInitializer)
+	: Super(ObjectInitializer)
+{
+}

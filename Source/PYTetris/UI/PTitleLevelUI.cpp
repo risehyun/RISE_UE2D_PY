@@ -18,7 +18,7 @@ void UPTitleLevelUI::NativeConstruct()
 
 void UPTitleLevelUI::OnStartGameButtonClicked()
 {
-	UGameplayStatics::OpenLevel(GetWorld(), TEXT("GamePlay"));
+	UGameplayStatics::OpenLevel(GetWorld(), TEXT("MainGame"));
 }
 
 

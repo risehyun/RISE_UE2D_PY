@@ -13,5 +13,11 @@ UCLASS()
 class PYTETRIS_API UPGamePlayLevelUI : public UUserWidget
 {
 	GENERATED_BODY()
-	
+
+public:
+	UPGamePlayLevelUI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
+
+protected:
+//	virtual void NativeConstruct() override;
+
 };
